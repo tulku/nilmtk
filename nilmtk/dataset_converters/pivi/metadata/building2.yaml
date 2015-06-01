@@ -1,0 +1,31 @@
+instance: 1   # this is the second building in the dataset
+original_name: house_2   # original name from REDD dataset
+elec_meters:
+  21: &emonitor
+      submeter_of: 0
+      device_model: eMonitor
+  22: *emonitor
+  23: *emonitor
+  31: *emonitor
+  33: *emonitor
+  34: *emonitor
+  35: *emonitor
+  51: *emonitor
+  52: *emonitor
+  53: *emonitor
+  54: *emonitor
+  55: *emonitor
+  56: *emonitor
+
+appliances:
+- original_name: sockets
+  room: office
+  type: sockets   # sockets is treated as an appliance
+  instance: 1
+  multiple: true   # likely to be more than 1 socket
+  meters: [21, 22, 23, 34, 51, 52, 53, 54, 55, 56]
+
+- original_name: air_conditioning
+  type: air conditioner
+  instance: 1
+  meters: [31, 33, 35]

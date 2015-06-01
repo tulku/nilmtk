@@ -1,0 +1,19 @@
+name: PIVI
+long_name: Pivi Experiment at LabGCBA
+creators:
+- LESS, GCBA
+publication_date: 2015
+institution: GCBA / LESS
+contact: lucas@lessindustries.com
+description: Several weeks of power data for two offices.
+subject: Disaggregated power demand from office buildings.
+number_of_buildings: 2
+timezone: GMT
+geo_location:
+  locality: Buenos Aires   # village, town, city or state
+  country: AR   # standard two-letter country code defined by ISO 3166-1 alpha-2
+  latitude: -34.603333 # Buenos Aires
+  longitude: -58.381667
+related_documents:
+  - none
+schema: https://github.com/nilmtk/nilm_metadata/tree/v0.2
